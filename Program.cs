@@ -155,7 +155,7 @@ namespace ConsoleApp9
                 else if (month >= 6 && month < 12)
                     kt = 5;
 
-                sum = 50 * month * ((1 + kt) / 100);
+                sum = 50 * month * (1 + kt / 100);
 
                 Console.WriteLine($"Ваш автомобиль марки {ma} был застрахован \nСумма страхового взноса составила {sum}.");
 
